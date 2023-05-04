@@ -16,7 +16,7 @@ The competition's winners will be decided upon the global winrate in all vs. all
 
 ### Competition
 
-We plan to launch a competition co-located with [IEEE Conference on Games 2003](https://2023.ieee-cog.org/), and currently are in the middle of migrating the game engine and adding some features.
+We plan to launch a competition co-located with [IEEE Conference on Games 2023](https://2023.ieee-cog.org/), and currently are in the middle of migrating the game engine and adding some features.
 
 More details soon...
 
