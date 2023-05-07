@@ -34,13 +34,12 @@ Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented 
 
 To play against the existing bots, download the most recent [binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases/tag/v0.9) for your OS.
 
-To start developing your own AI agents, check the documentation in [] Section and download [SoT-Core project](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core).
+To start developing your own AI agents, check the documentation in [this section](#implementing-ai-agent) and download [SoT-Core project](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core).
 
-Rules of the AI competition co-located with [IEEE Conference on Games](https://2023.ieee-cog.org) (deadline: 01.08.2023) are described in [this section]((#ieee-conference-on-games-2023)).
+Rules of the AI competition co-located with [IEEE Conference on Games](https://2023.ieee-cog.org) (deadline: 01.08.2023) are described in [this section](#ieee-conference-on-games-2023).
 
 
 ![](https://i.imgur.com/ASoRzQP.jpg)
-(todo screen showing bot logs)
 
 
 
@@ -214,12 +213,11 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 
 Agents will be evaluated using the [SoT-Core Game Runner](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core), on a large number of mirror matches using randomly generated seeds in an all-play-all system. The deciding factor will be the average winrate.
 
-Time limits:
-- ??ms for the first turn of the game
-- ??ms for all the remaining turns
+Time limit:
+- 10 seconds for every turn
 
-Memory limit and other constraints:
-- ???
+Memory limit:
+- while playing, the bot should not exceed 256 MB of memory. Anytime exceedance of 1024 MB of RAM usage will result in excluding the bot from the contest.
 
 
 Game version:
