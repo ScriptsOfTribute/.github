@@ -31,12 +31,12 @@
 
 Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented in C# .Net Core and allowing to write AI agents and play against them.
 
-
 To play against the existing bots, download the most recent [binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases/tag/v0.9) for your OS.
 
 To start developing your own AI agents, check the documentation in [this section](#implementing-ai-agent) and download [SoT-Core project](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core).
 
 Rules of the AI competition co-located with [IEEE Conference on Games](https://2023.ieee-cog.org) (deadline: 01.08.2023) are described in [this section](#ieee-conference-on-games-2023).
+The paper describing the competition can be found in [References](#references).
 
 
 ![](https://i.imgur.com/ASoRzQP.jpg)
@@ -49,6 +49,7 @@ Rules of the AI competition co-located with [IEEE Conference on Games](https://2
 Tales of Tribute is a deck-building game that launched with [The Elder Scrolls Online](https://www.elderscrollsonline.com/en-us/home) High Isle expansion. 
 
 As a source of information about the game, we find the following links helpful (some information in the descriptions might be outdated due to the game patches):
+- [Introducing Tales of Tribute AI Competition](todo), Section IV
 - [game rules](https://eso-hub.com/en/guides/tales-of-tribute-guide)
 - [list of cards and patrons](https://eso-hub.com/en/tales-of-tribute-card-game) (up-to-date)
 - [patron strategies](https://gamerant.com/complete-guide-to-elder-scrolls-online-high-isle-new-gear-bosses-cosmetics-mythics-and-tales-of-tribute/#tales-of-tribute---cards-patrons-and-strategies)
@@ -74,7 +75,7 @@ Come to our [Discord](https://discord.gg/RSZjNHuHGm) and talk to us.
 
 ## Authors
 
-Jakub Kowalski, Dominik Budzki, Damian Kowalik, Katarzyna Polak,  Radosław Miernik ([University of Wrocław, Institute of Computer Science](https://ii.uni.wroc.pl/))
+Jakub Kowalski, Dominik Budzki, Damian Kowalik, Katarzyna Polak,  Radosław Miernik ([University of Wrocław, Institute of Computer Science](https://ii.uni.wroc.pl/)).
 
 
 # Setup
@@ -144,7 +145,7 @@ of this function is to allow the programmer to analyze the data from the `EndGam
 To add logs to your bot, call the method `Log` with a string that you want to put in your log. Logs can be shown in the GUI during play.
 
 6. Compile your bot
-Just run `dotnet build` in `ScriptsOfTribute-Core\Bots` folder. A `Bots.dll` file should be created in the folder - you can use it to test your bot by copying that to the `GameRunner` folder, where you can test your bot against our sample bots or your other bots. (todo )more info)
+Just run `dotnet build` in `ScriptsOfTribute-Core\Bots` folder. A `Bots.dll` file should be created in the folder - you can use it to test your bot by copying that to the `GameRunner` folder, where you can test your bot against our sample bots or your other bots.
 
 ## Example Agents
 
@@ -152,7 +153,7 @@ Feel free to study our [example agents](https://github.com/ScriptsOfTribute/Scri
 
 Bots whose understanding can help you implement your own agents:
 1. [RandomBot](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Bots/src/RandomBot.cs)
-2. [MaxPrestigeBot](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Bots/src/MaxPrestigeBot.cs) Focus on the usage of `gameState.ApplyState()` - this function allows you to simulate a move. If you provide a seed, you can simulate a random playout based on that seed. When running this method without a seed you will receive `GameState` and available moves without any random events (like a card that you could draw, a new card in the tavern after buying/removing the card, etc.)
+2. [MaxPrestigeBot](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Bots/src/MaxPrestigeBot.cs) Focus on the usage of `gameState.ApplyMove()` - this function allows you to simulate a move. If you provide a seed, you can simulate a random playout based on that seed. When running this method without a seed you will receive `GameState` and available moves without any random events (like a card that you could draw, a new card in the tavern after buying/removing the card, etc.)
 
 
 ## Console Game Runner 
@@ -216,8 +217,9 @@ Agents will be evaluated using the [SoT-Core Game Runner](https://github.com/Scr
 Time limit:
 - 10 seconds for every turn
 
-Memory limit:
-- while playing, the bot should not exceed 256 MB of memory. Anytime exceedance of 1024 MB of RAM usage will result in excluding the bot from the contest.
+Memory limit and other constraints:
+- while playing, the bot should not exceed 256 MB of memory. Anytime exceedance of 1024 MB of RAM usage will result in excluding the bot from the contest
+- the size of sent file/archive should not exceed 25 MB
 
 
 Game version:
@@ -244,9 +246,17 @@ Have any questions or suggestions? Feel free to contact us on [Discord](https://
 
 # References
 
-The initial version of the ScriptsOfTribute has been described in this [engineer's thesis](https://jakubkowalski.tech/Supervising/Budzki2023ImplementingTalesOfTribute.pdf).
+The Tales of Tribute AI Competition has been described in the [paper](todo). 
 
-Cite as
+```
+@article{Kowalski2023IntroducingTales,
+  author = {Kowalski, J. and Miernik, R. and Polak, K. and Budzki, D. and Kowalik, D.},
+  title = {{Introducing Tales of Tribute AI Competition}},
+  note = {arXiv preprint arXiv:TODO.TODO},
+  year = {2023},
+}
+```
+Initial version of the ScriptsOfTribute has been described in [engineer's thesis](https://jakubkowalski.tech/Supervising/Budzki2023ImplementingTalesOfTribute.pdf).
 ```
 @mastersthesis{Budzki2023ImplementingTalesOfTribute,
   title={{Implementing Tales of Tribute as a Programming Game}},
