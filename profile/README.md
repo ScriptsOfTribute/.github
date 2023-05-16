@@ -49,7 +49,7 @@ The paper describing the competition can be found in [References](#references).
 Tales of Tribute is a deck-building game that launched with [The Elder Scrolls Online](https://www.elderscrollsonline.com/en-us/home) High Isle expansion. 
 
 As a source of information about the game, we find the following links helpful (some information in the descriptions might be outdated due to the game patches):
-- [Introducing Tales of Tribute AI Competition](todo), Section IV
+- [Introducing Tales of Tribute AI Competition](https://arxiv.org/abs/2305.08234), Section IV
 - [game rules](https://eso-hub.com/en/guides/tales-of-tribute-guide)
 - [list of cards and patrons](https://eso-hub.com/en/tales-of-tribute-card-game) (up-to-date)
 - [patron strategies](https://gamerant.com/complete-guide-to-elder-scrolls-online-high-isle-new-gear-bosses-cosmetics-mythics-and-tales-of-tribute/#tales-of-tribute---cards-patrons-and-strategies)
@@ -246,13 +246,13 @@ Have any questions or suggestions? Feel free to contact us on [Discord](https://
 
 # References
 
-The Tales of Tribute AI Competition has been described in the [paper](todo). 
+The Tales of Tribute AI Competition has been described in the [paper](https://arxiv.org/abs/2305.08234). 
 
 ```
 @article{Kowalski2023IntroducingTales,
   author = {Kowalski, J. and Miernik, R. and Polak, K. and Budzki, D. and Kowalik, D.},
   title = {{Introducing Tales of Tribute AI Competition}},
-  note = {arXiv preprint arXiv:TODO.TODO},
+  note = {arXiv preprint arXiv:2305.08234},
   year = {2023},
 }
 ```
