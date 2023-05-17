@@ -201,11 +201,11 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 
 ### Submission Rules
 
-- Please send a zip archive or a single `.cs` file containing your agent's source code (and other necessary files) to jko@cs.uni.wroc.pl.
-- The email should additionally contain:
-  - names (and optionally institutions) of all agent's authors
-  - agent's name
-  - short description of the agent (a few slides or short pdf/markdown/doc)
+- Please send a single `.cs` file containing your agent's source code a zip archive with all the others necessary files to jko@cs.uni.wroc.pl.
+- Additionally, the email should contain:
+  - Agent's name.
+  - Names (and institutions, if any) of all agent's authors.
+  - Short description of the agent. Preferably a few slides or a short note in markdown or PDF; it has to describe what does the agent do, e.g., whether it employs some search algorithms or neural networks.
 - Multiple bots can be submitted, but please indicate if a submission should replace an old one or be counted as a new submission (with a different agent's name). Each participant can have up to 2 final submissions. 
 - Please be aware that submitted agents are going to be published in this repository after the competition. With the submission, you agree with this procedure.
 
