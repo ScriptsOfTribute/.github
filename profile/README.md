@@ -246,7 +246,7 @@ Have any questions or suggestions? Feel free to contact us on [Discord](https://
 
 # References
 
-The Tales of Tribute AI Competition has been described in the [paper](https://arxiv.org/abs/2305.08234). 
+The Tales of Tribute AI Competition has been described in [this article](https://arxiv.org/abs/2305.08234). 
 
 ```
 @article{Kowalski2023IntroducingTales,
