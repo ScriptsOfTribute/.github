@@ -201,7 +201,7 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 
 ### Submission Rules
 
-- Please send a single `.cs` file containing your agent's source code a zip archive with all the others necessary files to jko@cs.uni.wroc.pl.
+- Please send a single `.cs` file containing your agent's source code or a zip archive with all the others necessary files to jko@cs.uni.wroc.pl.
 - Additionally, the email should contain:
   - Agent's name.
   - Names (and institutions, if any) of all agent's authors.
