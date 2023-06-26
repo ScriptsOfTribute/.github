@@ -7,7 +7,7 @@
 - [Setup](#setup)
   - [Step 1: Download the engine](#step-1-download-the-engine)
   - [Step 2: Choose your IDE](#step-2-choose-your-ide)
-  - [Step 3: .Net SDK](#step-3-net-sdk)
+  - [Step 3: .NET SDK](#step-3-net-sdk)
 - [Implementing AI Agent](#implementing-ai-agent)
   - [Important Classes](#important-classes)
   - [Overview of Important Objects](#overview-of-important-objects)
@@ -29,14 +29,23 @@
 
 # Scripts of Tribute Project
 
-Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented in C# .Net Core and allowing to write AI agents and play against them.
+Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented in C# .NET Core and allowing to write AI agents and play against them.
 
-To play against the existing bots, download the most recent [binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases/tag/v0.9) for your OS.
+**NEW: Thanks to the IEEE CIS, we have a $500 prize for the competition winner.**
+
+**NEW: Short video describing the competition is available [HERE](https://www.youtube.com/watch?v=3FxBlZ40l6o).**
+
+
+To play against the existing bots, download the most recent [GUI binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases) for your OS.
 
 To start developing your own AI agents, check the documentation in [this section](#implementing-ai-agent) and download [SoT-Core project](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core).
 
-Rules of the AI competition co-located with [IEEE Conference on Games](https://2023.ieee-cog.org) (deadline: 01.08.2023) are described in [this section](#ieee-conference-on-games-2023).
-The paper describing the competition can be found in [References](#references).
+Deadline for the [IEEE Conference on Games](https://2023.ieee-cog.org) Competition is **EXTENDED**: ~~01.08.2023~~ **07.08.2023**
+
+
+**The paper describing the competition is on [arXiv](https://arxiv.org/abs/2305.08234).**
+
+Detailed rules of the competition are described in [this section](#ieee-conference-on-games-2023). 
 
 
 ![](https://i.imgur.com/ASoRzQP.jpg)
@@ -80,7 +89,7 @@ Jakub Kowalski, Dominik Budzki, Damian Kowalik, Katarzyna Polak,  Radosław Mier
 
 # Setup
 
-As ScriptsOfTribute Engine is based on the .Net framework, we recommend using Windows as a developing platform. 
+As ScriptsOfTribute Engine is based on the .NET framework, we recommend using Windows as a developing platform. 
 
 
 ## Step 1: Download the engine
@@ -90,14 +99,14 @@ You can download the source code of the SoT engine from [this repository](https:
 
 ## Step 2: Choose your IDE
 
-Any you like. If you choose Visual Studio, make sure that you choose Visual Studio 2022, which supports .Net 7.
+Any you like. If you choose Visual Studio, make sure that you choose Visual Studio 2022, which supports .NET 7.
 
 
-## Step 3: .Net SDK 
+## Step 3: .NET SDK 
 
 *Skip this if you've chosen Visual Studio.*
 
-To build our engine and create bots with it, you need to install .Net 7 SDK compatible with your operating system. Go to the official page [Download .NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0), download, and then install the latest version.
+To build our engine and create bots with it, you need to install .NET 7 SDK compatible with your operating system. Go to the official page [Download .NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0), download, and then install the latest version.
 
 If you are using Linux - here is the [link](https://tecadmin.net/how-to-install-dotnet-core-on-ubuntu-22-04) to the tested tutorial; just change the version in commands from 6.0 to 7.0.
 
@@ -183,7 +192,7 @@ The players start with the same base cards and build their decks during the game
 
 Tales of Tribute AI Competition aims to fill the void after the [Hearthstone AI Competition](https://hearthstoneai.github.io) while being significantly more challenging than a toy problem covered by [Legends of Code and Magic](https://legendsofcodeandmagic.com/) and the [Strategy Card Game AI Competition](https://github.com/acatai/Strategy-Card-Game-AI-Competition).
 
-The competition is running using *ScriptsOfTribute*, an open reimplementation of the original game in .Net framework designed especially for this event. It features the game manager that allows running AI agents implemented as C# classes against each other and a graphical user interface that support human vs. AI games. 
+The competition is running using *ScriptsOfTribute*, an open reimplementation of the original game in .NET framework designed especially for this event. It features the game manager that allows running AI agents implemented as C# classes against each other and a graphical user interface that support human vs. AI games. 
 
 
 
@@ -195,7 +204,7 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 
 ### Important Dates
 
-- **1st August 2023**, 23:59 GMT - **Submission deadline**
+- **7th August 2023**, 23:59 GMT - **Submission deadline (EXTENDED)**
 - 21-24 August 2023 - [COG conference](https://2023.ieee-cog.org/) and results announcement
 
 
@@ -231,7 +240,9 @@ Game version:
 
 ### Prizes
 
-We are working on obtaining sponsors for the prizes. More info soon!
+$500 for the first place.
+Prize founded by the [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/).
+
 
 
 ### Organizers
