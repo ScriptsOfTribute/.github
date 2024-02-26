@@ -12,6 +12,7 @@
   - [Important Classes](#important-classes)
   - [Overview of Important Objects](#overview-of-important-objects)
   - [Creating a Bot](#creating-a-bot)
+  - [External Language](#external-language)
   - [Example Agents](#example-agents)
   - [Console Game Runner](#console-game-runner)
   - [GUI](#gui)
@@ -156,6 +157,10 @@ To add logs to your bot, call the method `Log` with a string that you want to pu
 6. Compile your bot
 Just run `dotnet build` in `ScriptsOfTribute-Core\Bots` folder. A `Bots.dll` file should be created in the folder - you can use it to test your bot by copying that to the `GameRunner` folder, where you can test your bot against our sample bots or your other bots.
 
+## External Language
+There's a possibility to use different language than C# to create a bot thanks to [ExternalAIAdadpter](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Engine/src/AI/ExternalAIAdapter.cs). For now engine is built to work with Python files, but enabling other languages is easy. In such cases please contact us.
+If you plan to create a bot in different language you have to parse game state from stdin which will come in json format ending with EOT string as an "End of Transmission" sign. Forming this object is done in [Game State class](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Engine/src/Serializers/GameState.cs) in `SerializeGameState` method. To understand more how these objects look please check [tests](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Tests/utils/JSONSerializeTests.cs). In case of any problem fastest way to get help or any information is through our [discord](https://discord.gg/RSZjNHuHGm).
+
 ## Example Agents
 
 Feel free to study our [example agents](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/tree/master/Bots/src), to familiarize yourself more with the infrastructure of the project. You can also use code from them to create your own code. 
@@ -173,6 +178,7 @@ for example: `GameRunner RandomBot RandomBot -n 1000 -t 2` will run 1000 games b
 
 For more flags and usage help, run `GameRunner -h`
 
+To run game with bot made in different language, for example python use file's full name (main file). For example: `GameRunner RandomBot PythonBot.py -n 1000 -t 2`
 
 ##  GUI
 
