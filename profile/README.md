@@ -18,6 +18,11 @@
   - [GUI](#gui)
 - [Tales of Tribute AI Competition](#tales-of-tribute-ai-competition)
   - [IEEE Conference on Games 2024](#ieee-conference-on-games-2024)
+      - [Changes from 2023 edition](#changes-from-2023-edition)
+    - [Important Dates](#important-dates)
+    - [Submission Rules](#submission-rules)
+    - [Evaluation](#evaluation)
+    - [Prizes](#prizes)
     - [Organizers](#organizers)
   - [Past Competitions](#past-competitions)
 - [References](#references)
@@ -29,13 +34,15 @@
 
 Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented in C# .NET Core and allowing to write AI agents and play against them.
 
-**NEW: Tales of Tribute AI Competition was accepted for [IEEE Conference on Games 2024](https://2024.ieee-cog.org/competitions/). (We encourage participants to sending auxiliary papers till April 28.)**
+**NEW ANNOUNCEMENTS: 2024 COG COMPETITION**
 
-A short video describing the competition is available [HERE](https://www.youtube.com/watch?v=3FxBlZ40l6o).
+**Tales of Tribute AI Competition was accepted for [IEEE Conference on Games 2024](https://2024.ieee-cog.org/competitions/). (We encourage participants to sending auxiliary papers till April 28.)**
 
-**More info about the competition SOON.**
+**Deadline for the agent submission is July 22. More details about participating [here](#ieee-conference-on-games-2024).**
+ 
 
 
+A short video describing the 2023 competition is available [HERE](https://www.youtube.com/watch?v=3FxBlZ40l6o) (most info remain up-to-date).
 
 
 To play against the existing bots, download the most recent [GUI binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases) for your OS.
@@ -44,9 +51,9 @@ To start developing your own AI agents, check the documentation in [this section
 
 
 
-The paper describing the competition is on [arXiv](https://arxiv.org/abs/2305.08234).
+The paper describing the competition is on [arXiv](https://arxiv.org/abs/2305.08234) (updated for 2024 edition).
 
-Detailed rules of the competition will be described in [this section](#ieee-conference-on-games-2024). 
+Detailed rules of the competition are described in [this section](#ieee-conference-on-games-2024). 
 
 
 ![](https://i.imgur.com/PFgkFLm.png)
@@ -68,13 +75,14 @@ As a source of information about the game, we find the following links helpful (
 
 ## Game Version
 
-The current SoT release is compatible with Tales of Tribute from ESO PC/Mac Patch 8.3.5 (15.03.2023) and contains six patrons (out of 9 available in ESO). All patron deck cards are fully upgraded.
+The current SoT release is compatible with Tales of Tribute from ESO PC/Mac Patch  9.2.10 (25.02.2024) and contains seven patrons (out of 11 currently available in ESO). All patron deck cards are fully upgraded.
 - [Pelin](https://en.uesp.net/wiki/Online:Saint_Pelin)
 - [Hlaalu](https://en.uesp.net/wiki/Online:Grandmaster_Delmene_Hlaalu)
 - [Crows](https://en.uesp.net/wiki/Online:Duke_of_Crows_(Patron))
 - [Ansei](https://en.uesp.net/wiki/Online:Ansei_Frandar_Hunding)
 - [Rajhin](https://en.uesp.net/wiki/Online:Rajhin)
 - [Red Eagle](https://en.uesp.net/wiki/Online:Red_Eagle)
+- [Orgnum](https://en.uesp.net/wiki/Online:Sorcerer-King_Orgnum) (added for 2024 competition)
 
 Cards data used is available in the [cards.json](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Engine/cards.json) file.
 
@@ -206,8 +214,56 @@ The competition is running using *ScriptsOfTribute*, an open reimplementation of
 
 Tales of Tribute AI Competition has been accepted as one of the events at [IEEE CoG 2024](https://2024.ieee-cog.org/competitions/).
 
+#### Changes from 2023 edition
 
-**More details soon**
+- Added Orgnum deck
+- Applied balance changes compatible with latest ESO patch
+- Added an adapter to allow languages other than C# (more information how to use the adapter [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core?tab=readme-ov-file#external-language-adapter-docs))
+- Multiple QoL changes for writing and testing agents
+
+
+
+### Important Dates
+
+- **22nd July 2024**, 23:59 GMT - **Submission deadline**
+- 5th-8th August 2024 - [COG conference](https://2024.ieee-cog.org/) and results announcement
+
+
+### Submission Rules
+
+- Please send a single `.cs` file containing your agent's source code or a zip archive with all the others necessary files to jko@cs.uni.wroc.pl.
+- In case of agents written in other programming languages please attach compilation/run instructions.
+- Additionally, the email should contain:
+  - Agent's name.
+  - Names (and institutions, if any) of all agent's authors.
+  - Short description of the agent. Preferably a few slides or a short note in markdown or PDF; it has to describe what does the agent do, e.g., whether it employs some search algorithms or neural networks.
+- Multiple bots can be submitted, but please indicate if a submission should replace an old one or be counted as a new submission (with a different agent's name). Each participant can have up to 2 final submissions. 
+- Please be aware that submitted agents are going to be published in this repository after the competition. With the submission, you agree with this procedure.
+
+
+### Evaluation
+
+Agents will be evaluated using the [SoT-Core Game Runner](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core), on a large number of mirror matches using randomly generated seeds in an all-play-all system. The deciding factor will be the average winrate.
+
+Time limit:
+- 10 seconds for every turn
+
+Memory limit and other constraints:
+- while playing, the bot should not exceed 256 MB of memory. Anytime exceedance of 1024 MB of RAM usage will result in excluding the bot from the contest
+- the size of sent file/archive should not exceed 25 MB
+
+
+Game version:
+- compatible with Tales of Tribute from ESO PC/Mac Patch 9.2.10 (25.02.2024)
+- 7 patrons available: [Pelin](https://en.uesp.net/wiki/Online:Saint_Pelin), [Hlaalu](https://en.uesp.net/wiki/Online:Grandmaster_Delmene_Hlaalu), [Crows](https://en.uesp.net/wiki/Online:Duke_of_Crows_(Patron)), [Ansei](https://en.uesp.net/wiki/Online:Ansei_Frandar_Hunding), [Rajhin](https://en.uesp.net/wiki/Online:Rajhin), [Red Eagle](https://en.uesp.net/wiki/Online:Red_Eagle), and [Orgnum](https://en.uesp.net/wiki/Online:Sorcerer-King_Orgnum).
+- all decks are assumed to be fully upgraded
+
+
+
+### Prizes
+
+We applied for the prizes to [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/). Expecting answer.
+
 
 
 
@@ -255,3 +311,4 @@ This competition is neither directly nor indirectly related to Bethesda Softwork
 It is based on the Scripts of Tribute framework, which mimics the game Tales of Tribute and provides access points for the development of AI agents. The framework does not allow to play the original game, nor does it connect to the game’s servers in any way.
 
 The Elder Scrolls® Online developed by ZeniMax Online Studios LLC, a ZeniMax Media company. ZeniMax, The Elder Scrolls, ESO, Bethesda, Bethesda Softworks and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the US and/or other countries. All Rights Reserved.
+
