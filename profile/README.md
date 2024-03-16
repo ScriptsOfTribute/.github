@@ -49,7 +49,7 @@ To play against the existing bots, download the most recent [GUI binary release]
 
 To start developing your own AI agents, check the documentation in [this section](#implementing-ai-agent) and download [SoT-Core project](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core).
 
-
+Dockerfile for competition environment is available [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Dockerfile)
 
 The paper describing the competition is on [arXiv](https://arxiv.org/abs/2305.08234) (updated for 2024 edition).
 
@@ -219,6 +219,7 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 - Added Orgnum deck
 - Applied balance changes compatible with latest ESO patch
 - Added an adapter to allow languages other than C# (more information how to use the adapter [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core?tab=readme-ov-file#external-language-adapter-docs))
+- Added a [Dockerfile](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Dockerfile)
 - Multiple QoL changes for writing and testing agents
 
 
@@ -244,6 +245,8 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 ### Evaluation
 
 Agents will be evaluated using the [SoT-Core Game Runner](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core), on a large number of mirror matches using randomly generated seeds in an all-play-all system. The deciding factor will be the average winrate.
+
+Evaluation environment will be compatible with the one provided by [Dockerfile](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Dockerfile).
 
 Time limit:
 - 10 seconds for every turn
