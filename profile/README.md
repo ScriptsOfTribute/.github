@@ -39,7 +39,9 @@ Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented 
 **Tales of Tribute AI Competition was accepted for [IEEE Conference on Games 2024](https://2024.ieee-cog.org/competitions/). (We encourage participants to sending auxiliary papers till April 28.)**
 
 **Deadline for the agent submission is July 22. More details about participating [here](#ieee-conference-on-games-2024).**
- 
+
+**Prizes for the winners:  $500USD for the first place, $300USD for the second, $200USD for the third.**
+
 
 
 A short video describing the 2023 competition is available [HERE](https://www.youtube.com/watch?v=3FxBlZ40l6o) (most info remain up-to-date).
@@ -265,7 +267,11 @@ Game version:
 
 ### Prizes
 
-We applied for the prizes to [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/). Expecting answer.
+- $500USD for the first place
+- $300USD for the second place
+- $200USD for the third place
+
+Prize founded by the [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/).
 
 
 
@@ -314,4 +320,3 @@ This competition is neither directly nor indirectly related to Bethesda Softwork
 It is based on the Scripts of Tribute framework, which mimics the game Tales of Tribute and provides access points for the development of AI agents. The framework does not allow to play the original game, nor does it connect to the game’s servers in any way.
 
 The Elder Scrolls® Online developed by ZeniMax Online Studios LLC, a ZeniMax Media company. ZeniMax, The Elder Scrolls, ESO, Bethesda, Bethesda Softworks and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the US and/or other countries. All Rights Reserved.
-
