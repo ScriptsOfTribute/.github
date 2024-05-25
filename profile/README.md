@@ -36,7 +36,7 @@ Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented 
 
 **NEW ANNOUNCEMENTS: 2024 COG COMPETITION**
 
-**Tales of Tribute AI Competition was accepted for [IEEE Conference on Games 2024](https://2024.ieee-cog.org/competitions/). (We encourage participants to sending auxiliary papers till April 28.)**
+**Tales of Tribute AI Competition was accepted for [IEEE Conference on Games 2024](https://2024.ieee-cog.org/competitions/).**
 
 **Deadline for the agent submission is July 22. More details about participating [here](#ieee-conference-on-games-2024).**
 
@@ -53,7 +53,7 @@ To start developing your own AI agents, check the documentation in [this section
 
 Dockerfile for competition environment is available [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/blob/master/Dockerfile)
 
-The paper describing the competition is on [arXiv](https://arxiv.org/abs/2305.08234) (updated for 2024 edition).
+The paper describing the competition is on [arXiv](https://arxiv.org/abs/2305.08234) (updated for 2024 edition, also accepted at IEEE COG 2024).
 
 Detailed rules of the competition are described in [this section](#ieee-conference-on-games-2024). 
 
@@ -291,14 +291,17 @@ Information about the previous Tales of Tribute AI competitions, including submi
 
 # References
 
-The Tales of Tribute AI Competition has been described in [this article](https://arxiv.org/abs/2305.08234). 
+The Tales of Tribute AI Competition has been described in [this article](https://arxiv.org/abs/2305.08234).
+
+Please cite as follows:
 
 ```
-@article{Kowalski2023IntroducingTales,
-  author = {Kowalski, J. and Miernik, R. and Polak, K. and Budzki, D. and Kowalik, D.},
+@inproceedings{Kowalski2024IntroducingTales,
+  author = {Kowalski, J. and Miernik, R. and Polak, K. and Budzki, D. and Kowalik D.},
   title = {{Introducing Tales of Tribute AI Competition}},
-  note = {arXiv preprint arXiv:2305.08234},
-  year = {2023},
+  booktitle = {IEEE Conference on Games},
+  pages = {1--8},
+  year = {2024},
 }
 ```
 Initial version of the ScriptsOfTribute has been described in [engineer's thesis](https://jakubkowalski.tech/Supervising/Budzki2023ImplementingTalesOfTribute.pdf).
