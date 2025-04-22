@@ -156,8 +156,8 @@ This section introduces some objects that are used in the engine and knowing the
 
 ## Creating a Bot
 
-1. Create a file in `ScriptsOfTribute-Core\Bots\src` folder e.g. `MyFirstAgent.cs.` Please remember that your class (in this case, `MyFirstAgent`) should inherit from AI abstract class.
-
+1. You can either download `dll` library file from [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/releases) and use it as normal .NET library or you can clone engine repository and create a file in `ScriptsOfTribute-Core\Bots\src` folder e.g. `MyFirstAgent.cs`. 
+Please remember that your class (in this case, `MyFirstAgent`) should inherit from AI abstract class.
 
 2. Implement the body of `SelectPatron` method.
 Arguments of this method are a list of available patrons and which round of selection of patron it is (first or second). Your method should return `Enum` object of the type `PatronId`.
@@ -173,7 +173,8 @@ of this function is to allow the programmer to analyze the data from the `EndGam
 To add logs to your bot, call the method `Log` with a string that you want to put in your log. Logs can be shown in the GUI during play.
 
 6. Compile your bot
-Just run `dotnet build` in `ScriptsOfTribute-Core\Bots` folder. A `Bots.dll` file should be created in the folder - you can use it to test your bot by copying that to the `GameRunner` folder, where you can test your bot against our sample bots or your other bots.
+In case you use our engine through `dll` file just compile your project as library, but if you work inside the reposity just run `dotnet build` in `ScriptsOfTribute-Core\Bots` folder. 
+Created `dll` file is now ready to use either by GameRunner or GUI app.
 
 ## External Language
 
