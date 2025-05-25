@@ -62,7 +62,7 @@ Scripts of Tribute (SoT) framework is a Tales of Tribute simulator, implemented 
 A short video describing the 2023 competition is available [HERE](https://www.youtube.com/watch?v=3FxBlZ40l6o) (most info remain up-to-date).
 
 
-To play against the existing bots, download the most recent [GUI binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases) for your OS.
+To play against the existing bots, download the most recent [GUI binary release](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI-2.0/releases) for your OS.
 
 To start developing your own AI agents, check the documentation in [this section](#implementing-ai-agent) and download [SoT-Core project](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core).
 
@@ -73,7 +73,7 @@ Extended version of the COG 2024 paper describing the competition is available o
 <!--Detailed rules of the competition are described in [this section](#ieee-conference-on-games-2024). -->
 
 
-![](https://i.imgur.com/PFgkFLm.png)
+![](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI-2.0/blob/main/Docs/screenshots/GameView.png)
 
 
 
@@ -209,9 +209,9 @@ It is available for download [here](https://github.com/ScriptsOfTribute/ScriptsO
 
 ##  GUI
 
-To test your bot, you can also use [our application]((https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI)) in the Unity framework. 
+To test your bot, you can also use [our application](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI-2.0) in the Unity framework. 
 
-Just download the [built version]((https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI/releases/tag/v0.9)) for your operating system and copy `.dll` file with your bots into 
+Just download the [built version](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI-2.0/releases) for your operating system and copy `.dll` file with your bots into 
 - for Windows: `ScriptsOfTribute_Data\StreamingAssets`
 - for Linux: `Linux_Data\StreamingAssets` (also make sure that you make `Linux.x86_64` executable),
 - for Mac: `Mac.app\Contents\Resources\Data\StreamingAssets`
