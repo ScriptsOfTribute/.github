@@ -33,11 +33,11 @@
 
 # Announcements: new competition at COG 2025
 
+- **NEW: Prizes for the winners, sponsored by IEEE CIS:  $500USD for the first place, $300USD for the second, $200USD for the third.**
 - **Tales of Tribute AI Competition has been accepted for [IEEE Conference on Games 2025](https://cog2025.inesc-id.pt/tales-of-tribute/).**
 - **Deadline for the agent submission is August 10.**
 - **More details about participating, including updates in the game, [here](#ieee-conference-on-games-2025).**
 - **In particular, our framework currently [supports multiple programming languages](#external-language).**
-
 
 
 <!--**IEEE Conference on Games 2024 Tales of Tribute AI Competition has ended.**
@@ -282,13 +282,17 @@ Game version:
 
 ### Prizes
 
-We will apply for prizes; more info soon.
+<!--We will apply for prizes; more info soon.-->
 
-<!--
+
 - $500USD for the first place
 - $300USD for the second place
 - $200USD for the third place
+ 
+Prizes founded by the [IEEE CIS Conference Competitions Subcommittee](https://cis.ieee.org/).
 
+
+<!--
 Prize founded by the [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/).
 
 -->
