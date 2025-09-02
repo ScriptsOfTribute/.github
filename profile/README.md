@@ -1,5 +1,5 @@
 
-- [Announcements: new competition at COG 2025](#announcements-new-competition-at-cog-2025)
+- [Announcements](#announcements)
 - [Scripts of Tribute Project](#scripts-of-tribute-project)
   - [Tales of Tribute](#tales-of-tribute)
   - [Game Version](#game-version)
@@ -14,23 +14,20 @@
   - [Overview of Important Objects](#overview-of-important-objects)
   - [Creating a Bot](#creating-a-bot)
   - [External Language](#external-language)
+    - [gRPC](#grpc)
+    - [**OBSOLETE** Communication via standart input/output](#obsolete-communication-via-standart-inputoutput)
   - [Example Agents](#example-agents)
   - [Console Game Runner](#console-game-runner)
   - [GUI](#gui)
 - [Tales of Tribute AI Competition](#tales-of-tribute-ai-competition)
-  - [IEEE Conference on Games 2025](#ieee-conference-on-games-2025)
-      - [Changes from 2024 edition](#changes-from-2024-edition)
-    - [Important Dates](#important-dates)
-    - [Submission Rules](#submission-rules)
-    - [Evaluation](#evaluation)
-    - [Prizes](#prizes)
+  - [IEEE Conference on Games 2026](#ieee-conference-on-games-2026)
   - [Organizers](#organizers)
   - [Past Competitions](#past-competitions)
 - [References](#references)
 - [Legal Notice](#legal-notice)
 
 
-
+<!--
 # Announcements: new competition at COG 2025
 
 - **NEW: Prizes for the winners, sponsored by IEEE CIS:  $500USD for the first place, $300USD for the second, $200USD for the third.**
@@ -38,6 +35,13 @@
 - **Deadline for the agent submission is August 10.**
 - **More details about participating, including updates in the game, [here](#ieee-conference-on-games-2025).**
 - **In particular, our framework currently [supports multiple programming languages](#external-language).**
+-->
+
+# Announcements
+
+- **IEEE Conference on Games 2025 Tales of Tribute AI Competition has ended.**
+- **See the results and all competition data [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-CompetitionsArchive/blob/main/competition-2025-08-COG/README.md).**
+- **Details regarding the 2026 edition will be posted in the first quarter of the year.**
 
 
 <!--**IEEE Conference on Games 2024 Tales of Tribute AI Competition has ended.**
@@ -228,8 +232,14 @@ Tales of Tribute AI Competition aims to fill the void after the [Hearthstone AI 
 The competition is running using *ScriptsOfTribute*, an open reimplementation of the original game in .NET framework designed especially for this event. It features the game manager that allows running AI agents implemented as C# classes against each other and a graphical user interface that support human vs. AI games. Current version supports also other programming languages.
 
 
-## IEEE Conference on Games 2025
+## IEEE Conference on Games 2026
 
+We plan to get back.
+
+More info first quarter of 2026.
+
+
+<!--
 Tales of Tribute AI Competition has been accepted as one of the events at [IEEE CoG 2025](https://cog2025.inesc-id.pt/tales-of-tribute/).
 
 #### Changes from 2024 edition
@@ -281,16 +291,16 @@ Game version:
 
 
 ### Prizes
-
+-->
 <!--We will apply for prizes; more info soon.-->
 
-
+<!--
 - $500USD for the first place
 - $300USD for the second place
 - $200USD for the third place
  
 Prizes founded by the [IEEE CIS Conference Competitions Subcommittee](https://cis.ieee.org/).
-
+-->
 
 <!--
 Prize founded by the [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/).
