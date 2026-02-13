@@ -27,6 +27,13 @@
 - [Legal Notice](#legal-notice)
 
 
+
+# Announcements: new competition at COG 2026
+
+- **Tales of Tribute AI Competition has been accepted for [IEEE Conference on Games 2026](https://cog2026.fdi.ucm.es/index.html).**
+- **Deadline for the agent submission is August 10.**
+- **More details about participating, including updates in the game, [here](#ieee-conference-on-games-2026).**
+
 <!--
 # Announcements: new competition at COG 2025
 
@@ -36,13 +43,13 @@
 - **More details about participating, including updates in the game, [here](#ieee-conference-on-games-2025).**
 - **In particular, our framework currently [supports multiple programming languages](#external-language).**
 -->
-
+<!--
 # Announcements
 
 - **IEEE Conference on Games 2025 Tales of Tribute AI Competition has ended.**
 - **See the results and all competition data [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-CompetitionsArchive/blob/main/competition-2025-08-COG/README.md).**
 - **Details regarding the 2026 edition will be posted in the first quarter of the year.**
-
+-->
 
 <!--**IEEE Conference on Games 2024 Tales of Tribute AI Competition has ended.**
 
@@ -88,10 +95,10 @@ Tales of Tribute is a deck-building game that launched with [The Elder Scrolls O
 
 As a source of information about the game, we find the following links helpful (some information in the descriptions might be outdated due to the game patches):
 - [Introducing Tales of Tribute AI Competition](https://arxiv.org/abs/2305.08234), Section IV
-- [game rules](https://eso-hub.com/en/guides/tales-of-tribute-guide)
-- [list of cards and patrons](https://eso-hub.com/en/tales-of-tribute-card-game) (up-to-date)
-- [patron strategies](https://gamerant.com/complete-guide-to-elder-scrolls-online-high-isle-new-gear-bosses-cosmetics-mythics-and-tales-of-tribute/#tales-of-tribute---cards-patrons-and-strategies)
-- [deck guides](https://www.youtube.com/@PinkAppleYT/videos)
+- [Game rules](https://eso-hub.com/en/guides/tales-of-tribute-guide)
+- [List of cards and patrons](https://eso-hub.com/en/tales-of-tribute-card-game) (up-to-date)
+- [Patron strategies](https://gamerant.com/complete-guide-to-elder-scrolls-online-high-isle-new-gear-bosses-cosmetics-mythics-and-tales-of-tribute/#tales-of-tribute---cards-patrons-and-strategies)
+- [Deck guides](https://www.youtube.com/@PinkAppleYT/videos)
 
 
 ## Game Version
@@ -234,9 +241,21 @@ The competition is running using *ScriptsOfTribute*, an open reimplementation of
 
 ## IEEE Conference on Games 2026
 
+Tales of Tribute AI Competition has been accepted as one of the events at [IEEE Conference on Games 2026](https://cog2026.fdi.ucm.es/index.html).
+
+<!--
 We plan to get back.
 
 More info first quarter of 2026.
+-->
+
+- Submission rules and computational constraints will be similar to the [previous editions](https://github.com/ScriptsOfTribute/ScriptsOfTribute-CompetitionsArchive)
+- Update of GUI and Core packages, info about available decks, and balance changes **soon**
+ 
+### Important Dates
+
+- **10th August 2026**, 23:59 GMT - **Submission deadline**
+- 1st-4th September 2026 - [COG conference](https://cog2026.fdi.ucm.es/index.html) and results announcement
 
 
 <!--
