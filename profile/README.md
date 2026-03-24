@@ -1,5 +1,5 @@
 
-- [Announcements](#announcements)
+- [Announcements: new competition at COG 2026](#announcements-new-competition-at-cog-2026)
 - [Scripts of Tribute Project](#scripts-of-tribute-project)
   - [Tales of Tribute](#tales-of-tribute)
   - [Game Version](#game-version)
@@ -21,6 +21,11 @@
   - [GUI](#gui)
 - [Tales of Tribute AI Competition](#tales-of-tribute-ai-competition)
   - [IEEE Conference on Games 2026](#ieee-conference-on-games-2026)
+    - [Important Dates](#important-dates)
+    - [Game Updates](#game-updates)
+    - [Submission Rules](#submission-rules)
+    - [Evaluation](#evaluation)
+    - [Prizes](#prizes)
   - [Organizers](#organizers)
   - [Past Competitions](#past-competitions)
 - [References](#references)
@@ -30,9 +35,11 @@
 
 # Announcements: new competition at COG 2026
 
-- **Tales of Tribute AI Competition has been accepted for [IEEE Conference on Games 2026](https://cog2026.fdi.ucm.es/index.html).**
-- **Deadline for the agent submission is August 10.**
-- **More details about participating, including updates in the game, [here](#ieee-conference-on-games-2026).**
+- **NEW: Updated info about competition [here](#ieee-conference-on-games-2026).**
+- **NEW: Prizes for the winners, sponsored by IEEE CIS:  $500USD for the first place, $300USD for the second, $200USD for the third.**
+- Tales of Tribute AI Competition has been accepted for [IEEE Conference on Games 2026](https://cog2026.fdi.ucm.es/index.html).
+- Deadline for the agent submission is August 10.
+
 
 <!--
 # Announcements: new competition at COG 2025
@@ -248,10 +255,10 @@ We plan to get back.
 
 More info first quarter of 2026.
 -->
-
+<!--
 - Submission rules and computational constraints will be similar to the [previous editions](https://github.com/ScriptsOfTribute/ScriptsOfTribute-CompetitionsArchive)
 - Update of GUI and Core packages, info about available decks, and balance changes **soon**
- 
+--> 
 ### Important Dates
 
 - **10th August 2026**, 23:59 GMT - **Submission deadline**
@@ -274,6 +281,15 @@ Tales of Tribute AI Competition has been accepted as one of the events at [IEEE 
 
 - **10th August 2025**, 23:59 GMT - **Submission deadline**
 - 26th-29th August 2025 - [COG conference](https://cog2025.inesc-id.pt/) and results announcement
+-->
+
+### Game Updates
+
+- This year, the decks and cards are **exactly the same** as in [2025 edition](https://github.com/ScriptsOfTribute/ScriptsOfTribute-CompetitionsArchive/tree/main/competition-2025-08-COG).
+- The goal of this experiment is to allow fair comparison against the previous year's champions.
+- However, we ned to emphasize that **to be eligible for prizes, your submission must be substantially different from other non-yours submissions from the previous year**
+- Up-to-date core package release is [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-Core/releases/tag/v1.1.0)
+- Up-to-date GUI release package is [here](https://github.com/ScriptsOfTribute/ScriptsOfTribute-GUI-2.0/releases/tag/V1.0_2026) - it allows you to play by hand against the top three bots of the 2025 edition.
 
 
 ### Submission Rules
@@ -302,24 +318,24 @@ Memory limit and other constraints:
 - while playing, the bot should not exceed 256 MB of memory. Anytime exceedance of 1024 MB of RAM usage will result in excluding the bot from the contest
 - the size of sent file/archive should not exceed 25 MB
 
-
+<!--
 Game version:
 - compatible with Tales of Tribute from ESO PC/Mac Patch 10.3.5 (10.03.2025) 
 - 6 patrons available: [Pelin](https://eso-hub.com/en/tales-of-tribute/saint-pelin), [Crows](https://eso-hub.com/en/tales-of-tribute/duke-of-crows), [Ansei](https://eso-hub.com/en/tales-of-tribute/ansei-frandar-hunding), [Rajhin](https://eso-hub.com/en/tales-of-tribute/rajhin-the-purring-liar), [Orgnum](https://eso-hub.com/en/tales-of-tribute/sorcerer-king-orgnum), and [Alessia](https://eso-hub.com/en/tales-of-tribute/saint-alessia).
 - all decks are assumed to be fully upgraded
-
+-->
 
 ### Prizes
--->
+
 <!--We will apply for prizes; more info soon.-->
 
-<!--
+
 - $500USD for the first place
 - $300USD for the second place
 - $200USD for the third place
  
-Prizes founded by the [IEEE CIS Conference Competitions Subcommittee](https://cis.ieee.org/).
--->
+Prizes founded by the [IEEE CIS Education Competition Subcommittee ](https://cis.ieee.org/).
+
 
 <!--
 Prize founded by the [IEEE CIS Education Competition Subcommittee](https://cis.ieee.org/).
@@ -330,7 +346,11 @@ Prize founded by the [IEEE CIS Education Competition Subcommittee](https://cis.i
 
 ## Organizers
 
+<!--
 The Tales of Tribute AI competition is organized by Jakub Kowalski, Dominik Budzki, Damian Kowalik, Katarzyna Polak, and Radosław Miernik ([University of Wrocław, Institute of Computer Science](https://ii.uni.wroc.pl/)).
+-->
+
+The Tales of Tribute AI competition is organized by Jakub Kowalski, Dominik Budzki, and Radosław Miernik ([University of Wrocław, Institute of Computer Science](https://ii.uni.wroc.pl/)).
 
 Have any questions or suggestions? Feel free to contact us on [Discord](https://discord.gg/RSZjNHuHGm) or send a [mail](mailto:jko@cs.uni.wroc.pl).
 
